@@ -5,6 +5,7 @@
 	display:flex;
 	justify-content:center;
 	min-height:100vh;
+	background-color:#512DA8;
 }
 
 .skel_item {
@@ -18,7 +19,7 @@
 #js-request {
 	box-sizing:border-box;
 	width:100%;
-	border:1px solid red;
+	border:1.5px solid #E040FB;
 	border-radius:2px;
 	height:2rem;
 	padding:0;
@@ -27,13 +28,34 @@
 #js-request:focus {
 	outline:none;
 }
+#js-request::-webkit-input-placeholder {
+	text-align: center;
+	color:#727272;
+	text-transform:capitalize;
+}
+#js-request::-moz-placeholder {
+	text-align: center;
+	color:#727272;
+	text-transform:capitalize;
+}
+#js-request:-ms-input-placeholder {
+	text-align: center;
+	color:#727272;
+	text-transform:capitalize;
+}
+#js-request:-moz-placeholder {
+	text-align: center;
+	color:#727272;
+	text-transform:capitalize;
+}
 
 #js-response {
 	box-sizing:border-box;
 	width:100%;
 	align-self:flex-start;
+	color:#212121;
 	margin-top:2rem;
-	background-color:rgba(100,200,100,.3);
+	background-color:#D1C4E9;
 	border-radius:2px;
 	height:4rem;
 	display:flex;
@@ -49,7 +71,7 @@
 
 @media all and (min-width:20rem) {
 	.skel_item {
-		background-color:#e9e9e9;
+		background-color:#673AB7;
 		padding:1rem 2rem;
 		border-radius:3px;
 		width:75%;
